@@ -6,29 +6,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 </head>
 
 <body>
-    <div class="container1">
-    
-    <div class="container">
-        <h1>Meal Finder </h1>
-        
-            <div class="input-group mb-3">
-                <input id="Search" type="text" class="form-control" placeholder="Search For Meal ...">
-                <div class="input-group-append">
-                    <button id="submit"  class="btn btn-danger">Search</button>
-                </div>
-            </div>
-        
 
-        <div id="result-heading"></div>
-        <div id="meals"></div>
-        <div id="single-meal"></div>
-    <script src="app.js"></script>
+    <div class="container">
+
+
+        <div class="input-group mb-3">
+            <input id="inputValue" type="text" class="form-control" placeholder="Enter a location for Weather ...">
+            <div class="input-group-append">
+                <button onclick="searchText()" type="button" class="btn btn-danger">Search</button>
+            </div>
+
+        </div>
+
     </div>
+
+    <div id="food-container">
+
+    </div>
+    <div id="foodDetils">
+
+    </div>
+
+
+
+    <script src="app.js"></script>
 </body>
 
 </html>
