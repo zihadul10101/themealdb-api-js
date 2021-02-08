@@ -2,10 +2,18 @@
     box-sizing: border-box;
 
 }
+.hadding{
+    text-align: center;
+    color: lightcoral;
+    margin-bottom: 30px;
+    }
 #food-container{
     display: grid;
     grid-template-columns: repeat(4,1fr);
     grid-gap: 25px 
+}
+.banner{
+    background-color: lightskyblue;
 }
 .meal{
     border: 5px solid goldenrod;
@@ -24,13 +32,18 @@
     margin-bottom: 40px;
     margin-top: 30px;
     color: indigo;
-}
-.banner{
-    background-color: lightskyblue;
-}
-.hadding{
-text-align: center;
-color: lightcoral;
-margin-bottom: 30px;
+    
 }
 
+
+.Instructions{
+color: mediumblue;
+text-align: center;
+}
+.liStyle{
+    color: red;
+    font-size: medium;
+}
+.int{
+    color: mediumblue;
+}

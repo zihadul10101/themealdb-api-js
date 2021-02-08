@@ -52,8 +52,24 @@ const mealDetailsInfo = foodName => {
   foodDiv.innerHTML = `
   <div class="details">
   <h1>${foodName.strMeal}</h1>
-     <p>
-     <li>${foodName.strInstructions}</li>
+  <br>
+  Ingredient:
+     <div class="liStyle">
+     <li>${foodName.strIngredient1}</li>
+     <li>${foodName.strIngredient2}</li>
+     <li>${foodName.strIngredient3}</li>
+     <li>${foodName.strIngredient4}</li>
+     <li>${foodName.strIngredient5}</li>
+     <li>${foodName.strIngredient6}</li>
+     <li>${foodName.strIngredient7}</li>
+     <li>${foodName.strIngredient8}</li>
+     <li>${foodName.strIngredient9}</li>
+     <li>${foodName.strIngredient10}</li>
+     <br>
+</div>
+     <p class="int">
+     Instructions:
+     <h2 class="Instructions">${foodName.strInstructions}</h2>
      
      </p>
      </div>
