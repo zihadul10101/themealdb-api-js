@@ -50,8 +50,12 @@ const mealDetailsInfo = foodName => {
   console.log(foodName);
   const foodDiv = document.getElementById('foodDetils');
   foodDiv.innerHTML = `
-  <div class="details">
+  <div class="detailsHading col-md-12">
+  <img class="imgHading" src="${foodName.strMealThumb}" alt="${foodName.strMeal}"/>
   <h1>${foodName.strMeal}</h1>
+</div>
+  <div class="details">
+  
   <br>
   Ingredient:
      <div class="liStyle">

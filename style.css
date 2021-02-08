@@ -24,8 +24,21 @@
     gap: 10px;
    
 }
+.detailsHading{
+    border: 5px solid goldenrod;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    gap: 10px;
+
+}
 .img{
     width: 250px;
+   
+}
+.imgHading{
+    width: 30%;
 }
 .details{
     border: 5px goldenrod solid;
